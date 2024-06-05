@@ -15,7 +15,7 @@
 
 <script>
 import { ref } from "vue";
-import router from "../router";
+import { useRouter } from 'vue-router'
 import getPosts from '../composables/getPosts'
 
 
@@ -25,6 +25,7 @@ export default {
         const body = ref("");
         const tags = ref([]);
         const tag = ref("");
+        const router = useRouter()
 
         const handleKeydown = () => {
             tag.value = tag.value.replace(/\s/g, ""); // remove all whitespace
@@ -57,7 +58,7 @@ export default {
                 body: JSON.stringify(post),
             })
                 .then(() => {
-                    router.push("/");
+                    router.push({name: 'home'});
                 })
                 .catch((err) => console.log(err));
         };
