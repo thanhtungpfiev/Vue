@@ -1,8 +1,9 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import DetailsView from '../views/DetailsView.vue'
-import CreateView from '../views/CreateView.vue'
-import TagView from '../views/TagView.vue'
+import { createRouter, createWebHistory } from 'vue-router';
+import HomeView from '../views/HomeView.vue';
+import DetailsView from '../views/DetailsView.vue';
+import CreateView from '../views/CreateView.vue';
+import TagView from '../views/TagView.vue';
+import RealTime from '../views/RealTime.vue';
 
 const routes = [
   {
@@ -25,12 +26,17 @@ const routes = [
     path: '/tags/:tag',
     name: 'tags',
     component: TagView
+  },
+  {
+    path: '/realtime',
+    name: 'realtime',
+    component: RealTime
   }
-]
+];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
-})
+});
 
-export default router
+export default router;

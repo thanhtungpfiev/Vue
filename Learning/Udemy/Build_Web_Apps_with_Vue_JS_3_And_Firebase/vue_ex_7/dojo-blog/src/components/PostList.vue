@@ -9,7 +9,7 @@
 <script>
 import { onMounted, onUnmounted, onUpdated } from 'vue';
 
-import SinglePost from './SinglePost.vue'
+import SinglePost from './SinglePost.vue';
 
 export default {
     props: ['posts'],
@@ -19,7 +19,7 @@ export default {
     setup() {
 
     }
-}
+};
 </script>
 
 <style></style>
