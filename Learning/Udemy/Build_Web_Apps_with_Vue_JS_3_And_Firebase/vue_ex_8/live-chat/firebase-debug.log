@@ -1,0 +1,87 @@
+[debug] [2024-06-14T04:47:00.692Z] ----------------------------------------------------------------------
+[debug] [2024-06-14T04:47:00.694Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dta3hc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-06-14T04:47:00.694Z] CLI Version:   13.11.2
+[debug] [2024-06-14T04:47:00.694Z] Platform:      win32
+[debug] [2024-06-14T04:47:00.694Z] Node Version:  v20.11.0
+[debug] [2024-06-14T04:47:00.695Z] Time:          Fri Jun 14 2024 11:47:00 GMT+0700 (Indochina Time)
+[debug] [2024-06-14T04:47:00.695Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-14T04:47:00.757Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-14T04:47:00.758Z] > authorizing via signed-in user (cuongphong2508@gmail.com)
+[debug] [2024-06-14T04:47:00.758Z] [iam] checking project udemy-vue-firebase-sites-c4412 for permissions ["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-06-14T04:47:00.761Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/udemy-vue-firebase-sites-c4412:testIamPermissions [none]
+[debug] [2024-06-14T04:47:00.761Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/udemy-vue-firebase-sites-c4412:testIamPermissions x-goog-quota-user=projects/udemy-vue-firebase-sites-c4412
+[debug] [2024-06-14T04:47:00.761Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/udemy-vue-firebase-sites-c4412:testIamPermissions {"permissions":["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-06-14T04:47:02.564Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/udemy-vue-firebase-sites-c4412:testIamPermissions 200
+[debug] [2024-06-14T04:47:02.564Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/udemy-vue-firebase-sites-c4412:testIamPermissions {"permissions":["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-06-14T04:47:02.566Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/udemy-vue-firebase-sites-c4412 [none]
+[debug] [2024-06-14T04:47:04.128Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/udemy-vue-firebase-sites-c4412 200
+[debug] [2024-06-14T04:47:04.128Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/udemy-vue-firebase-sites-c4412 {"projectId":"udemy-vue-firebase-sites-c4412","projectNumber":"603564741386","displayName":"Udemy Vue Firebase Sites","name":"projects/udemy-vue-firebase-sites-c4412","resources":{"hostingSite":"udemy-vue-firebase-sites-c4412"},"state":"ACTIVE","etag":"1_43d144d1-4909-425a-9cc4-7e6430caf4a6"}
+[info] 
+[info] === Deploying to 'udemy-vue-firebase-sites-c4412'...
+[info] 
+[info] i  deploying firestore, hosting 
+[debug] [2024-06-14T04:47:09.144Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\dta3hc\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:267:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-06-14T04:47:27.051Z] ----------------------------------------------------------------------
+[debug] [2024-06-14T04:47:27.053Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dta3hc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-06-14T04:47:27.054Z] CLI Version:   13.11.2
+[debug] [2024-06-14T04:47:27.054Z] Platform:      win32
+[debug] [2024-06-14T04:47:27.054Z] Node Version:  v20.11.0
+[debug] [2024-06-14T04:47:27.054Z] Time:          Fri Jun 14 2024 11:47:27 GMT+0700 (Indochina Time)
+[debug] [2024-06-14T04:47:27.054Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-14T04:47:27.117Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-14T04:47:27.118Z] > authorizing via signed-in user (cuongphong2508@gmail.com)
+[debug] [2024-06-14T04:47:27.118Z] [iam] checking project udemy-vue-firebase-sites-c4412 for permissions ["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-06-14T04:47:27.120Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/udemy-vue-firebase-sites-c4412:testIamPermissions [none]
+[debug] [2024-06-14T04:47:27.120Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/udemy-vue-firebase-sites-c4412:testIamPermissions x-goog-quota-user=projects/udemy-vue-firebase-sites-c4412
+[debug] [2024-06-14T04:47:27.120Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/udemy-vue-firebase-sites-c4412:testIamPermissions {"permissions":["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-06-14T04:47:29.164Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/udemy-vue-firebase-sites-c4412:testIamPermissions 200
+[debug] [2024-06-14T04:47:29.164Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/udemy-vue-firebase-sites-c4412:testIamPermissions {"permissions":["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-06-14T04:47:29.165Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/udemy-vue-firebase-sites-c4412 [none]
+[debug] [2024-06-14T04:47:30.729Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/udemy-vue-firebase-sites-c4412 200
+[debug] [2024-06-14T04:47:30.729Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/udemy-vue-firebase-sites-c4412 {"projectId":"udemy-vue-firebase-sites-c4412","projectNumber":"603564741386","displayName":"Udemy Vue Firebase Sites","name":"projects/udemy-vue-firebase-sites-c4412","resources":{"hostingSite":"udemy-vue-firebase-sites-c4412"},"state":"ACTIVE","etag":"1_43d144d1-4909-425a-9cc4-7e6430caf4a6"}
+[info] 
+[info] === Deploying to 'udemy-vue-firebase-sites-c4412'...
+[info] 
+[info] i  deploying firestore, hosting 
+[debug] [2024-06-14T04:47:35.749Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\dta3hc\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:267:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-06-14T04:48:38.331Z] ----------------------------------------------------------------------
+[debug] [2024-06-14T04:48:38.333Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dta3hc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-06-14T04:48:38.333Z] CLI Version:   13.11.2
+[debug] [2024-06-14T04:48:38.333Z] Platform:      win32
+[debug] [2024-06-14T04:48:38.333Z] Node Version:  v20.11.0
+[debug] [2024-06-14T04:48:38.333Z] Time:          Fri Jun 14 2024 11:48:38 GMT+0700 (Indochina Time)
+[debug] [2024-06-14T04:48:38.333Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-14T04:48:38.391Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-14T04:48:38.391Z] > authorizing via signed-in user (cuongphong2508@gmail.com)
+[debug] [2024-06-14T04:48:38.391Z] [iam] checking project udemy-vue-firebase-sites-c4412 for permissions ["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-06-14T04:48:38.397Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/udemy-vue-firebase-sites-c4412:testIamPermissions [none]
+[debug] [2024-06-14T04:48:38.397Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/udemy-vue-firebase-sites-c4412:testIamPermissions x-goog-quota-user=projects/udemy-vue-firebase-sites-c4412
+[debug] [2024-06-14T04:48:38.397Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/udemy-vue-firebase-sites-c4412:testIamPermissions {"permissions":["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-06-14T04:48:39.679Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/udemy-vue-firebase-sites-c4412:testIamPermissions 200
+[debug] [2024-06-14T04:48:39.679Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/udemy-vue-firebase-sites-c4412:testIamPermissions {"permissions":["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-06-14T04:48:39.680Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/udemy-vue-firebase-sites-c4412 [none]
+[debug] [2024-06-14T04:48:40.962Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/udemy-vue-firebase-sites-c4412 200
+[debug] [2024-06-14T04:48:40.963Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/udemy-vue-firebase-sites-c4412 {"projectId":"udemy-vue-firebase-sites-c4412","projectNumber":"603564741386","displayName":"Udemy Vue Firebase Sites","name":"projects/udemy-vue-firebase-sites-c4412","resources":{"hostingSite":"udemy-vue-firebase-sites-c4412"},"state":"ACTIVE","etag":"1_43d144d1-4909-425a-9cc4-7e6430caf4a6"}
+[info] 
+[info] === Deploying to 'udemy-vue-firebase-sites-c4412'...
+[info] 
+[info] i  deploying firestore, hosting 
+[debug] [2024-06-14T04:48:45.973Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\dta3hc\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:267:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.
